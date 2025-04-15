@@ -1,1 +1,3 @@
+{{ config(materialized='table') }}
+
 Select * from snowflake_db_postgres_snowflake_db_myschema.departments where department_id>50
